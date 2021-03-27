@@ -24,73 +24,13 @@
                     </div>
                     <div class="row mt-10">
                         @foreach($sounds as $sound)
-                            <div class="col-3 p-5">
+                            <div class="col-3 p-5 text-center">
                                 <audio src="{{ $sound['url'] }}"></audio>
                                 <button class="sound-btn btn btn-primary mw-full text-truncate" title="{{ $sound['name'] }}">
                                     {{ $sound['name'] }}
                                 </button>
                             </div>
                         @endforeach
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
-                            <div class="col-3 p-5">
-                                <audio src="/"></audio>
-                                <button class="sound-btn btn btn-primary mw-full text-truncate" title="Yeet">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </button>
-                            </div>
                     </div>
                 </div>
             </div>
